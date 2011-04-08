@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <meta http-equiv="content-type"  content="text/html;charset=UTF-8" />
+  <title>jQuery-StickyFooter Demo</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.stickyFooter.js"></script>
+  <script type="text/javascript">
+    /*
+      NOTE: If your footer's size is dependent on images loading,
+      you'll want to use $(window).load() instead of $(document).ready().
+    */
+    $(document).ready(function() {
+      $("#footer").stickyFooter();
+    });
+  </script>
+  <style type="text/css">
+    body{font-size:15px;margin:8px;}
+    .outer_container{text-align:center;}
+    .inner_container{margin:0 auto;text-align:left;width:960px;}
+    
+    #footer{background:#700000;color:#fff;padding:1em;}
+  </style>
+</head>
+<body>
+
+directly in the body tag
+
+<div id="content" class="outer_container">
+  <div class="inner_container">
+    And this is in a content div.
+    <a href="#" onclick="$('#content .inner_container').append('<div style=\'background:blue;color:white;height:100px;margin-bottom:10px;\'>More content!</div>'); return false;">
+      Click me. I'll add more content to test stickiness!
+    </a>
+    <br/>
+    <br/>
+    You can also resize the browser to see that it always sticks to the bottom--until it hits the content.
+  </div>
+</div>
+
+also in the body tag
+
+<div id="footer">
+  <p>This footer is dynamically sized based on this text.</p>
+  <p>It is also anchored to the bottom of the page, no matter the size of the document.</p>
+</div>
+
+</body>
+</html>
