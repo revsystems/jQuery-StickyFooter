@@ -1,8 +1,8 @@
 # jQuery-StickyFooter
 
 Most of the time, I want my footer to anchor to the bottom of the page. If the page contents 
-are very short, this won't happen naturally. Enter: jQuery-StickyFooter. jQuery-StickyFooter 
-takes the pain out forcing a page footer.
+are very short, this won't happen naturally. Enter: jQuery-StickyFooter. It takes the pain 
+out forcing a page footer, and it won't block any of your content.
 
 # Demo
 
