@@ -39,7 +39,7 @@ This plugin expects markup like:
       <head>
         ...
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-        <script type="text/javascript" src="/jquery.stickfooter.js"></script>
+        <script type="text/javascript" src="/jquery.stickyfooter.js"></script>
         <script type="text/javascript">
           $(document).ready(function() {
             $("#footer").stickyFooter();
@@ -76,3 +76,11 @@ The class of the element that applies padding space for the footer. Sometimes it
 The class of the element that wraps everything except the footer.
 
 # Troubleshooting
+
+If you run into problems, feel free to report them on the [Issues Page](https://github.com/revsystems/jQuery-StickyFooter/issues).
+
+Here's what I know so far.
+
+  1. Does not work in IE6 and below.
+  2. Does not automatically fix double margin bug in IE7.
+  3. May break your CSS or JS if you're using weird selectors.

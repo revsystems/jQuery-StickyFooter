@@ -31,7 +31,7 @@
       <head>
         ...
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-        <script type="text/javascript" src="/jquery.stickfooter.js"></script>
+        <script type="text/javascript" src="/jquery.stickyfooter.js"></script>
         <script type="text/javascript">
           $("#footer").stickyFooter();
         </script>
