@@ -10,9 +10,7 @@ You can view the selectboxes in action [here](http://dl.dropbox.com/u/124192/web
   
 # Usage
 
-Requires [jQuery](http://jquery.com) and this plugin.
-
-Inspired by The Man In Blue's solution: http://www.themaninblue.com/writing/perspective/2005/08/29/
+jQuery-StickyFooter is inspired by [The Man In Blue's solution](http://www.themaninblue.com/writing/perspective/2005/08/29/).
 I use most of his tricks, and try to make it more robust by using javascript.
 
 The advantages of a JS implementation:
